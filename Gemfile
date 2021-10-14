@@ -31,6 +31,8 @@ gem 'devise', '~> 4.8'
 
 gem 'client_side_validations', '~> 19.1'
 
+gem 'rails_admin', '~> 2.2', '>= 2.2.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
